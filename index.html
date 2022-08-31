@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Super Hero Generator</title>
+</head>
+<style>
+    .container {
+        display: flex;
+    }
+    
+    .container .data {
+        padding: 1rem;
+        text-transform: capitalize;
+        display: inline-flex;
+        font-size: 20px;
+        font-family: monospace, sans-serif;
+        line-height: 50px;
+    }
+    
+    .container #heroImage {
+        width: fit-content;
+        display: inline-flex;
+        margin: 30px;
+    }
+    
+    #searchInput {
+        text-transform: capitalize;
+    }
+</style>
+
+<body>
+    <h2>Super Hero Generator</h2>
+    <p>You can search for a super hero like 'batman' , 'spider-man' or You can generate a random hero</p>
+    <input id='searchInput' type="text">
+    <button id='searchButton'>Search</button>
+    <button id='newHeroButton'>create Random Hero</button>
+    </br>
+    <div class="container">
+        <div id='heroImage'><img src="" alt=""></div>
+        <div class="data">
+            <div class="hisName"></div>
+        </div>
+    </div>
+    <!-- <script src="script.js"></script> -->
+    <script src="main.js"></script>
+</body>
+
+</html>
